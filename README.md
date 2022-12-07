@@ -66,7 +66,7 @@ X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.2,shuffle=True)
 
 ## Results
 For checking our results we used accuracy score and classification to print out the report below. We receive that the accuracy score is 86% which is good accuracy for the model. 
-
+```
               precision    recall  f1-score   support
 
        False       0.86      1.00      0.92      2123
@@ -75,7 +75,7 @@ For checking our results we used accuracy score and classification to print out 
     accuracy                           0.86      2466
    macro avg       0.43      0.50      0.46      2466
 weighted avg       0.74      0.86      0.80      2466
-
+```
 
 ## Discussion
 After choosing the dataset we had to decide which model to use. We were going to use logistic regression as it was simple to work on but later on switched to SVM as the dataset had numerical and categorical which was the right idea. 
@@ -87,6 +87,9 @@ Doing this project was a fun way to learn what we could do with machine learning
 
 ## Collaboration Section
 Everyone gave feedback to each other and helped the each other out when one wasn't sure what to do. 
+
 Troy Insixiengmay: Did the abstract and chose what the project should be about and did the data exploration and analysis.
+
 Yuhan Pu: Did all the data preprocessing and built the model and did most of the code.
+
 Govind Alagappan: Did the all of the write up for the final submission.
