@@ -79,7 +79,9 @@ weighted avg       0.74      0.86      0.80      2466
 
 ## Discussion
 After choosing the dataset we had to decide which model to use. We were going to use logistic regression as it was simple to work on but later on switched to SVM as the dataset had numerical and categorical which was the right idea. 
+
 After choosing the model we began preprocessing the data by normalizing it and deleting unnecessary columns. This is one area in which we could have done better by choosing a better dataset to train on which did not have a lot values which were 0 and could have developed a model that takes more attributes into consideration. 
+
 Then we onehot encode the categorical variable so we can apply the rbf kernel to it and then split the data into testing and training with the split of 80:20. Then we print out the accuracy score and classification report to see how well our model can predict whether a person makes a purchase or not. 
 
 ## Conclusion 
@@ -92,4 +94,4 @@ Troy Insixiengmay: Did the abstract and chose what the project should be about a
 
 Yuhan Pu: Did all the data preprocessing and built the model and did most of the code.
 
-Govind Alagappan: Did the all of the write up for the final submission.
+Govind Alagappan: Did all of the write up for the final submission.
